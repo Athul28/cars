@@ -1,0 +1,150 @@
+body{
+    font-family: 'Acme', sans-serif;
+    background-color: #1B2430;
+}
+
+
+/* Title Section */
+
+.title-section{
+    background-image: url(cars.jpg);
+    background-size: 100rem;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+.dimmer{
+    background-color: rgba(0, 0, 0, 0.334);
+}
+
+.navbar-brand{
+    font-size: 3rem;
+}
+
+.nav-item{
+    font-size: 1.7rem;
+    margin: 0 3% 0 3%;
+}
+
+.nav-bar-content{
+    margin: 3%;
+    padding: 0.5% 8% 0.5% 3%;
+
+}
+
+/* Website Title */
+
+.cars-title{
+    color: white;
+    height: 29rem;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 7.5rem;
+    padding: 10px;
+}
+
+/* Features */
+.car-features{
+    margin-top: 50px;
+}
+.card-img-top{
+    padding: 1rem;
+    border-radius: 25px;
+    height: 200px;
+}
+
+.card{
+    background-color: #D6D5A8;
+    text-align: center;
+    height: 100%;
+}
+
+.card-body{
+    font-family: 'Acme', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+}
+
+h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.col{
+    margin-bottom: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #D6D5A8;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 4rem;
+}
+
+hr{
+    border: 10px dotted #D6D5A8;
+    border-bottom: 0;
+    width: 5%;
+    margin: 0 auto 30px auto;
+}
+
+.row{
+    padding: 5%;
+}
+
+/* Footer */
+.footer{
+    background-color: #51557E;
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 1%;
+}
+
+h3{
+    color: #D6D5A8;
+}
+
+i{
+    color: #D6D5A8;
+    margin: 2%;
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+
+.copyright{
+    text-align: center;
+    margin: 1%;
+}
+
+@media (max-width:960px) {
+    h1{
+        font-size: 5rem;
+    }
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    i{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    hr{
+        font-size: 5px;
+        width: 10%;
+    }
+}
